@@ -1,0 +1,19 @@
+#include<stdio.h>
+int fact(int r);
+main()
+{
+	int n,a;
+	scanf("%d",&n);
+	a=fact(n);
+	printf("\n The factorial of a given number is %d",a);
+}
+int fact(int r)
+{
+		int i=1;
+	    while(r>1)
+	    {
+	    	i=i*r;
+	    	r--;
+		}
+	return i;
+}
