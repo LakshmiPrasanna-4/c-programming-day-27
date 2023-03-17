@@ -1,0 +1,16 @@
+#include<stdio.h>
+int area(int r,int s);
+int main()
+{
+	int l,b,a;
+	scanf("%d",&l);
+	scanf("%d",&b);
+	a=area(l,b);
+	printf("The area of a rectangle is %d",a);
+}
+int area(int r,int s)
+{
+	int i;
+	i=r*s;
+	return i;
+}
